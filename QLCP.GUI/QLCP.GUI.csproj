@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QLCP.BLL\QLCP.BLL.csproj" />
+    <ProjectReference Include="..\QLCP.Common\QLCP.Common.csproj" />
+    <ProjectReference Include="..\QLCP.DTO\QLCP.DTO.csproj" />
+  </ItemGroup>
+
+</Project>
